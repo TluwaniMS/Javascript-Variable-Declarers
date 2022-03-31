@@ -52,6 +52,14 @@ Variables that are declared with the `let` keyword are limited within the scope 
 * Variables defined with `let` are limited to a block or function scope
 
 * Variables defined with `let` can be reassigned.
+
+```
+let name = "Pontsho";
+
+let name = "Themba";
+
+///The interpreter will raise an error alerting that you cannot redeclare a block-scoped variable
+```
 3. `const`:
 
 Variables that are declared with the `const` keyword are limited within 
