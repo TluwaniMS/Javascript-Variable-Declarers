@@ -103,3 +103,27 @@ Variables that are declared with the `const` keyword are limited within
 * Variables defined with `const` are limited to a block or function scope
 
 * Variables defined with `const` can not be reassigned.
+
+```
+const name = "Pontsho";
+
+name = "Themba";
+
+///The interpreter will raise an error alerting you of a constant reassignment
+```
+
+```
+{
+  const name = "Thando";
+}
+
+function sayName() {
+  console.log(`My name called in the function scope is ${name}`);
+  {
+    console.log(`My name called in the scope nested within the function scope is ${name}`);
+  }
+}
+
+sayName();
+/// A reference error will be raised alerting you that name is not defined
+```
