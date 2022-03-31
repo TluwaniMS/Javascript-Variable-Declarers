@@ -27,7 +27,9 @@ Themba
 ```
 
 ```
-var name = "Thando";
+{
+  var name = "Thando";
+}
 
 function sayName() {
   console.log(`My name called in the function scope is ${name}`);
@@ -73,6 +75,22 @@ name = "Themba";
 console.log(name);
 /// Will print out:
 Themba
+```
+
+```
+{
+  let name = "Thando";
+}
+
+function sayName() {
+  console.log(`My name called in the function scope is ${name}`);
+  {
+    console.log(`My name called in the scope nested within the function scope is ${name}`);
+  }
+}
+
+sayName();
+/// A reference error will be raised alerting you that name is not defined
 ```
 3. `const`:
 
