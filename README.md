@@ -60,6 +60,20 @@ let name = "Themba";
 
 ///The interpreter will raise an error alerting that you cannot redeclare a block-scoped variable
 ```
+
+```
+let name = "Pontsho";
+
+console.log(name);
+/// Will print out:
+Pontsho
+
+name = "Themba";
+
+console.log(name);
+/// Will print out:
+Themba
+```
 3. `const`:
 
 Variables that are declared with the `const` keyword are limited within 
