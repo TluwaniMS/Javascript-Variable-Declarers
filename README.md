@@ -11,6 +11,21 @@ Variables that are declared with the `var` keyword can be accessed in any scope 
 * Variables defined with `var` are not limited to a block or function scope
 
 * Variables defined with `var` can be reassigned.
+
+```
+var name = "Pontsho";
+
+console.log(name);
+/// Will print out:
+Pontsho
+
+var name = "Themba";
+
+console.log(name);
+/// Will print out:
+Themba
+```
+
 2. `let`:
 
 Variables that are declared with the `let` keyword are limited within the scope that they are declared in.
