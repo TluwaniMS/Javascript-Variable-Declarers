@@ -26,6 +26,21 @@ console.log(name);
 Themba
 ```
 
+```
+var name = "Thando";
+
+function sayName() {
+  console.log(`My name called in the function scope is ${name}`);
+  {
+    console.log(`My name called in the scope nested within the function scope is ${name}`);
+  }
+}
+
+sayName();
+/// Will Print out:
+My name called in the function scope is Thando
+My name called in the scope nested within the function scope is Thando
+```
 2. `let`:
 
 Variables that are declared with the `let` keyword are limited within the scope that they are declared in.
