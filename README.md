@@ -17,13 +17,13 @@ var name = "Pontsho";
 
 console.log(name);
 /// Will print out:
-Pontsho
+/// Pontsho
 
 var name = "Themba";
 
 console.log(name);
 /// Will print out:
-Themba
+/// Themba
 ```
 
 ```
@@ -40,8 +40,8 @@ function sayName() {
 
 sayName();
 /// Will Print out:
-My name called in the function scope is Thando
-My name called in the scope nested within the function scope is Thando
+/// My name called in the function scope is Thando
+/// My name called in the scope nested within the function scope is Thando
 ```
 2. `let`:
 
@@ -60,7 +60,7 @@ let name = "Pontsho";
 
 let name = "Themba";
 
-///The interpreter will raise an error alerting that you cannot redeclare a block-scoped variable
+/// The interpreter will raise an error alerting that you cannot redeclare a block-scoped variable
 ```
 
 ```
@@ -68,13 +68,13 @@ let name = "Pontsho";
 
 console.log(name);
 /// Will print out:
-Pontsho
+/// Pontsho
 
 name = "Themba";
 
 console.log(name);
 /// Will print out:
-Themba
+/// Themba
 ```
 
 ```
@@ -109,7 +109,7 @@ const name = "Pontsho";
 
 name = "Themba";
 
-///The interpreter will raise an error alerting you of a constant reassignment
+/// The interpreter will raise an error alerting you of a constant reassignment
 ```
 
 ```
